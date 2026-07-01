@@ -1,0 +1,88 @@
+body{
+    background-color:#caf0f8;
+    margin:0;
+    border:0;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    animation-name: translate;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    height: infinite;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 400px;
+    background-color: #023e8a;
+    border-radius: 10px;
+    margin-top: 150px;
+    transition: all 2s ease-in;
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 1);
+}
+
+@keyframes translate {
+    from {
+        transform: translateY(-1000px);
+    }
+    to {
+        transform: translateY(10px);
+    }
+}
+
+form{
+    color: white;
+}
+input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+ input:hover{
+    border-color:#01080adc;
+    border-width: 2px;
+    border-style: solid;
+    transition: 0.3s;
+
+ }
+
+button:hover{
+    background-color: #90e0ef;
+    color: #023e8a;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #caf0f8;
+    color: #023e8a;
+    font-weight: bold;
+}
+.db{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+h3{
+    margin:10px
+}
+
+.main:hover{
+   transform: scale(1.03);
+}
