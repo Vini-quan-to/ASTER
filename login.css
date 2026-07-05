@@ -2,6 +2,7 @@ body{
     background-color:#caf0f8;
     margin:0;
     border:0;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
      align-items: center;
@@ -9,6 +10,7 @@ body{
     animation-duration: 3s;
     animation-iteration-count: 1;
     height: infinite;
+    overflow-x: hidden;
 }
 
 .main{
